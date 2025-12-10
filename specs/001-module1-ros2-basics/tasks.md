@@ -21,13 +21,13 @@
 
 **Purpose**: Project initialization and basic structure for Docusaurus and examples.
 
-- [ ] T001 Create `docusaurus/` directory.
-- [ ] T002 Initialize Docusaurus project within `docusaurus/`.
-- [ ] T003 Create `docusaurus/docs/module1/` directory.
-- [ ] T004 Configure `docusaurus/sidebars.js` for Module 1 chapters.
-- [ ] T005 Configure `docusaurus/docusaurus.config.js` with basic settings.
-- [ ] T006 Create `examples/` directory.
-- [ ] T007 Create `examples/module1/` directory.
+- [X] T001 Create `docusaurus/` directory.
+- [X] T002 Initialize Docusaurus project within `docusaurus/`.
+- [X] T003 Create `docusaurus/docs/module1/` directory.
+- [X] T004 Configure `docusaurus/sidebars.js` for Module 1 chapters.
+- [X] T005 Configure `docusaurus/docusaurus.config.js` with basic settings.
+- [X] T006 Create `examples/` directory.
+- [X] T007 Create `examples/module1/` directory.
 
 ## Phase 2: Foundational (Blocking Prerequisites)
 
@@ -41,15 +41,15 @@
 
 ### Implementation for User Story 1
 
-- [ ] T008 [US1] Create `docusaurus/docs/module1/chapter1-nodes-topics.md`.
-- [ ] T009 [US1] Write explanation of ROS 2 nodes and topics in `docusaurus/docs/module1/chapter1-nodes-topics.md`.
-- [ ] T010 [US1] Create `examples/module1/nodes_topics/` directory.
-- [ ] T011 [US1] Create `examples/module1/nodes_topics/publisher.py`.
-- [ ] T012 [US1] Write Python code for publisher node in `examples/module1/nodes_topics/publisher.py`.
-- [ ] T013 [US1] Create `examples/module1/nodes_topics/subscriber.py`.
-- [ ] T014 [US1] Write Python code for subscriber node in `examples/module1/nodes_topics/subscriber.py`.
-- [ ] T015 [US1] Add a task for the reader in `docusaurus/docs/module1/chapter1-nodes-topics.md`.
-- [ ] T016 [US1] Create `examples/module1/nodes_topics/README.md` with instructions.
+- [X] T008 [US1] Create `docusaurus/docs/module1/chapter1-nodes-topics.md`.
+- [X] T009 [US1] Write explanation of ROS 2 nodes and topics in `docusaurus/docs/module1/chapter1-nodes-topics.md`.
+- [X] T010 [US1] Create `examples/module1/nodes_topics/` directory.
+- [X] T011 [US1] Create `examples/module1/nodes_topics/publisher.py`.
+- [X] T012 [US1] Write Python code for publisher node in `examples/module1/nodes_topics/publisher.py`.
+- [X] T013 [US1] Create `examples/module1/nodes_topics/subscriber.py`.
+- [X] T014 [US1] Write Python code for subscriber node in `examples/module1/nodes_topics/subscriber.py`.
+- [X] T015 [US1] Add a task for the reader in `docusaurus/docs/module1/chapter1-nodes-topics.md`.
+- [X] T016 [US1] Create `examples/module1/nodes_topics/README.md` with instructions.
 - [ ] T017 [US1] Test runnable examples for nodes and topics (`examples/module1/nodes_topics/publisher.py`, `examples/module1/nodes_topics/subscriber.py`).
 
 ## Phase 4: User Story 2 - Learn ROS 2 Services (Priority: P2)
@@ -60,15 +60,15 @@
 
 ### Implementation for User Story 2
 
-- [ ] T018 [US2] Create `docusaurus/docs/module1/chapter2-services.md`.
-- [ ] T019 [US2] Write explanation of ROS 2 services in `docusaurus/docs/module1/chapter2-services.md`.
-- [ ] T020 [US2] Create `examples/module1/services/` directory.
-- [ ] T021 [US2] Create `examples/module1/services/server.py`.
-- [ ] T022 [US2] Write Python code for service server in `examples/module1/services/server.py`.
-- [ ] T023 [US2] Create `examples/module1/services/client.py`.
-- [ ] T024 [US2] Write Python code for service client in `examples/module1/services/client.py`.
-- [ ] T025 [US2] Add a task for the reader in `docusaurus/docs/module1/chapter2-services.md`.
-- [ ] T026 [US2] Create `examples/module1/services/README.md` with instructions.
+- [X] T018 [US2] Create `docusaurus/docs/module1/chapter2-services.md`.
+- [X] T019 [US2] Write explanation of ROS 2 services in `docusaurus/docs/module1/chapter2-services.md`.
+- [X] T020 [US2] Create `examples/module1/services/` directory.
+- [X] T021 [US2] Create `examples/module1/services/server.py`.
+- [X] T022 [US2] Write Python code for service server in `examples/module1/services/server.py`.
+- [X] T023 [US2] Create `examples/module1/services/client.py`.
+- [X] T024 [US2] Write Python code for service client in `examples/module1/services/client.py`.
+- [X] T025 [US2] Add a task for the reader in `docusaurus/docs/module1/chapter2-services.md`.
+- [X] T026 [US2] Create `examples/module1/services/README.md` with instructions.
 - [ ] T027 [US2] Test runnable examples for services (`examples/module1/services/server.py`, `examples/module1/services/client.py`).
 
 ## Phase 5: User Story 3 - Understand Basic Humanoid URDF (Priority: P3)
@@ -79,13 +79,13 @@
 
 ### Implementation for User Story 3
 
-- [ ] T028 [US3] Create `docusaurus/docs/module1/chapter3-urdf-basics.md`.
-- [ ] T029 [US3] Write explanation of basic humanoid URDF in `docusaurus/docs/module1/chapter3-urdf-basics.md`.
-- [ ] T030 [US3] Create `examples/module1/urdf_basics/` directory.
-- [ ] T031 [US3] Create `examples/module1/urdf_basics/simple_humanoid.urdf`.
-- [ ] T032 [US3] Write XML for a simple humanoid URDF in `examples/module1/urdf_basics/simple_humanoid.urdf`.
-- [ ] T033 [US3] Add a task for the reader in `docusaurus/docs/module1/chapter3-urdf-basics.md`.
-- [ ] T034 [US3] Create `examples/module1/urdf_basics/README.md` with instructions.
+- [X] T028 [US3] Create `docusaurus/docs/module1/chapter3-urdf-basics.md`.
+- [X] T029 [US3] Write explanation of basic humanoid URDF in `docusaurus/docs/module1/chapter3-urdf-basics.md`.
+- [X] T030 [US3] Create `examples/module1/urdf_basics/` directory.
+- [X] T031 [US3] Create `examples/module1/urdf_basics/simple_humanoid.urdf`.
+- [X] T032 [US3] Write XML for a simple humanoid URDF in `examples/module1/urdf_basics/simple_humanoid.urdf`.
+- [X] T033 [US3] Add a task for the reader in `docusaurus/docs/module1/chapter3-urdf-basics.md`.
+- [X] T034 [US3] Create `examples/module1/urdf_basics/README.md` with instructions.
 - [ ] T035 [US3] Test URDF visualization in RViz2 (`examples/module1/urdf_basics/simple_humanoid.urdf`).
 
 ## Phase 6: Documentation & Examples
@@ -93,17 +93,17 @@
 **Purpose**: Ensure the feature aligns with the principles of Clarity and Reproducibility.
 
 - [ ] T036 [US_ALL] Review all chapters in `docusaurus/docs/module1/` for clarity, technical accuracy, and Docusaurus compatibility.
-- [ ] T037 [US_ALL] Ensure all code examples have clear `README.md` files for setup and execution.
+- [X] T037 [US_ALL] Ensure all code examples have clear `README.md` files for setup and execution.
 - [ ] T038 [US_ALL] Verify all tasks are well-defined within the chapters.
 
 ## Phase 7: Polish & Cross-Cutting Concerns
 
 **Purpose**: Final review and build verification.
 
-- [ ] T039 Perform a local Docusaurus build within `docusaurus/` and check for errors.
+- [X] T039 Perform a local Docusaurus build within `docusaurus/` and check for errors.
 - [ ] T040 Verify Docusaurus build output visually.
 - [ ] T041 Check for consistency between book content and RAG ingestion requirements (manual check).
-- [ ] T042 Ensure all files are correctly placed and named according to the project structure defined in plan.md.
+- [X] T042 Ensure all files are correctly placed and named according to the project structure defined in plan.md.
 
 ---
 
