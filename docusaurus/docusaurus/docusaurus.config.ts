@@ -21,14 +21,14 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://example.com',
+  url: 'https://hackathon-ai-text-book-pi2y.vercel.app/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/docBook/',
+  baseUrl: '/docBook',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'example', // Usually your GitHub org/user name.
+  organizationName: 'Waqar-5', // Usually your GitHub org/user name.
   projectName: 'docBook', // Usually your repo name.
 
   onBrokenLinks: 'throw',
@@ -84,7 +84,7 @@ const config: Config = {
         title: 'The Physical AI & Humanoid Robotics Handbook',
   logo: {
     alt: 'Physical AI Book Logo',
-    src: 'img/illustrator.png',
+    src: '/img/illustrator.png',
   },
       items: [
      {
