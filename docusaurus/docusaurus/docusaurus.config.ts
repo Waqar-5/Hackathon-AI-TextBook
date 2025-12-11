@@ -5,9 +5,15 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'AI Book + RAG Chatbot',
-  tagline: 'Physical AI & Humanoid Robotics',
-  favicon: 'img/favicon.ico',
+  // title: 'AI Book + RAG Chatbot',
+  // tagline: 'Physical AI & Humanoid Robotics',
+  // favicon: 'img/illustrator.png',
+
+
+  title: 'Embodied Intelligence: The Physical AI & Humanoid Robotics Handbook',
+  // tagline: 'Building Intelligent Humanoids with ROS 2, Gazebo, Isaac & VLA',
+  tagline: 'Learn to Build Intelligent Humanoids: Master ROS 2, Simulate with Gazebo & Unity, Train AI Perception in NVIDIA Isaac, and Enable Robots to Understand Language and Act Autonomously with Vision-Language-Action (VLA).”',
+  favicon: 'img/illustrator.png',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -75,21 +81,22 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'AI Book',
-      logo: {
-        alt: 'AI Book Logo',
-        src: 'img/logo.svg',
-      },
+        title: 'The Physical AI & Humanoid Robotics Handbook',
+  logo: {
+    alt: 'Physical AI Book Logo',
+    src: 'img/illustrator.png',
+  },
       items: [
+     {
+  type: 'docSidebar',
+  sidebarId: 'tutorialSidebar',
+  position: 'left',
+  label: 'Physical AI Handbook',
+},
+
+        // {to: '/blog', label: 'Blog', position: 'left'},
         {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
-          position: 'left',
-          label: 'Tutorial',
-        },
-        {to: '/blog', label: 'Blog', position: 'left'},
-        {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/Waqar-5',
           label: 'GitHub',
           position: 'right',
         },
@@ -102,24 +109,24 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
+              label: 'Start Learning',
+              to: '/docs/module1/chapter1-nodes-topics',
             },
           ],
         },
         {
           title: 'Community',
           items: [
+            // {
+            //   label: 'Stack Overflow',
+            //   href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+            // },
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'LinkedIn',
+              href: 'https://www.linkedin.com/in/waqar-ali-997b962b5/',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'X',
+              label: 'X(Twitter)',
               href: 'https://x.com/docusaurus',
             },
           ],
@@ -127,19 +134,22 @@ const config: Config = {
         {
           title: 'More',
           items: [
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
+            // {
+            //   label: 'Blog',
+            //   to: '/blog',
+            // },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/Waqar-5',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Panaverse DAO. Built with Docusaurus.`,
+      // copyright: `Copyright © ${new Date().getFullYear()} Panaverse DAO. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} "The Physical AI & Humanoid Robotics Handbook". 
+  Built with ❤️ by <a href="https://github.com/Waqar-5" target="_blank">Waqar Ali</a> — Creator, Educator, and AI Enthusiast.`
     },
+
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,

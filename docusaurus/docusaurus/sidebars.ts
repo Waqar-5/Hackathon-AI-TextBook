@@ -24,6 +24,35 @@ const sidebars: SidebarsConfig = {
         'module1/chapter3-urdf-basics',
       ],
     },
+    {
+      type: 'category',
+      label: 'Module 2: The Digital Twin',
+      items: [
+        'module2/chapter1-physics-simulation',
+        'module2/chapter2-environment-building',
+        'module2/chapter3-sensor-simulation',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Module 3: The AI-Robot Brain (NVIDIA Isaac)',
+      items: [
+        'module3/chapter1-advanced-perception',
+        'module3/chapter2-training-photorealistic-sim',
+        'module3/chapter3-vslam-path-planning',
+        'module3/chapter4-integration-and-workflow',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Module 4: Vision-Language-Action (VLA)',
+      items: [
+        'module4/chapter1-llms-in-robotics',
+        'module4/chapter2-voice-command-integration',
+        'module4/chapter3-cognitive-planning-and-execution',
+        'module4/chapter4-end-to-end-vla-workflow',
+      ],
+    },
   ],
 
   // But you can create a sidebar manually
