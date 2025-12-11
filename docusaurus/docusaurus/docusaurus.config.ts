@@ -24,7 +24,7 @@ const config: Config = {
   url: 'https://hackathon-ai-text-book-pi2y.vercel.app/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/docBook',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -82,10 +82,10 @@ const config: Config = {
     },
     navbar: {
         title: 'The Physical AI & Humanoid Robotics Handbook',
-  logo: {
-    alt: 'Physical AI Book Logo',
-    src: '/img/illustrator.png',
-  },
+ logo: {
+  alt: 'Physical AI Book Logo',
+  src: '/img/illustrator.png', // ✅ correct if file is in static/img/
+},
       items: [
      {
   type: 'docSidebar',
